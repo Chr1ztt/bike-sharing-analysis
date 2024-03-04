@@ -38,7 +38,7 @@ def create_average_by_weekdays_df(df):
 
   return average_by_weekdays_df
 
-df = pd.read_csv("dashboard\main_data.csv")
+df = pd.read_csv("dashboard/main_data.csv")
 average_by_weather_df = create_average_by_weather_df(df)
 average_by_weekdays_df = create_average_by_weekdays_df(df)
 
